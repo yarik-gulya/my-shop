@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import ProductList from 'my-shop/src/components/ProductList.vue'
+import ProductList from './components/ProductList.vue';
 
 export default {
   name: 'App',
