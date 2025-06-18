@@ -60,7 +60,28 @@ export default {
                     name: "Фітнес-браслет Xiaomi Mi Band 7",
                     price: 1800,
                     image: "https://img.freepik.com/free-photo/futuristic-virtual-reality-headset-illuminates-dark-studio-shot-generated-by-ai_188544-13298.jpg"
-                }
+                },
+                {
+                    name: 'Планшет Apple iPad Air',
+                    price: 25000,
+                    image: 'https://img.freepik.com/free-photo/modern-office-desk-composition-with-technological-device_23-2147915894.jpg?ga=GA1.1.265073241.1744218660&semt=ais_hybrid&w=740'
+                },
+
+                {
+                    name: 'Електронна книга Kindle Paperwhite',
+                    price: 6000,
+                    image: 'https://img.freepik.com/free-photo/modern-office-desk-composition-with-technological-device_23-2147915894.jpg?ga=GA1.1.265073241.1744218660&semt=ais_hybrid&w=740'
+                },
+                {
+                    name: 'Ігрова консоль Sony PlayStation 5',
+                    price: 45000,
+                    image: 'https://img.freepik.com/free-photo/modern-office-desk-composition-with-technological-device_23-2147915894.jpg?ga=GA1.1.265073241.1744218660&semt=ais_hybrid&w=740'
+                },
+                {
+                    name: 'Веб-камера Logitech C920',
+                    price: 2500,
+                    image: 'https://img.freepik.com/free-photo/modern-office-desk-composition-with-technological-device_23-2147915894.jpg?ga=GA1.1.265073241.1744218660&semt=ais_hybrid&w=740'
+                },
             ],
         };
     },
