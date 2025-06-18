@@ -2,15 +2,18 @@
   <div id="app">
     <ProductList />
   </div>
+  <FooterComponent />
 </template>
 
 <script>
 import ProductList from './components/ProductList.vue';
+import FooterComponent from './components/FooterComponent.vue';
 
 export default {
   name: 'App',
   components: {
-    ProductList
+    ProductList,
+    FooterComponent
   }
 };
 </script>

@@ -66,21 +66,20 @@ export default {
                     price: 25000,
                     image: 'https://img.freepik.com/free-photo/modern-office-desk-composition-with-technological-device_23-2147915894.jpg?ga=GA1.1.265073241.1744218660&semt=ais_hybrid&w=740'
                 },
-
                 {
                     name: 'Електронна книга Kindle Paperwhite',
                     price: 6000,
-                    image: 'https://img.freepik.com/free-photo/modern-office-desk-composition-with-technological-device_23-2147915894.jpg?ga=GA1.1.265073241.1744218660&semt=ais_hybrid&w=740'
+                    image: 'https://img.freepik.com/free-photo/high-angle-man-reading-digital-magazine_23-2150162702.jpg?ga=GA1.1.265073241.1744218660&semt=ais_hybrid&w=740'
                 },
                 {
                     name: 'Ігрова консоль Sony PlayStation 5',
                     price: 45000,
-                    image: 'https://img.freepik.com/free-photo/modern-office-desk-composition-with-technological-device_23-2147915894.jpg?ga=GA1.1.265073241.1744218660&semt=ais_hybrid&w=740'
+                    image: 'https://img.freepik.com/free-photo/high-angle-controllers-headphones_23-2149829136.jpg?ga=GA1.1.265073241.1744218660&semt=ais_hybrid&w=740'
                 },
                 {
                     name: 'Веб-камера Logitech C920',
                     price: 2500,
-                    image: 'https://img.freepik.com/free-photo/modern-office-desk-composition-with-technological-device_23-2147915894.jpg?ga=GA1.1.265073241.1744218660&semt=ais_hybrid&w=740'
+                    image: 'https://img.freepik.com/free-photo/wireless-home-security-surveillance-camera_53876-96819.jpg?ga=GA1.1.265073241.1744218660&semt=ais_hybrid&w=740'
                 },
             ],
         };
