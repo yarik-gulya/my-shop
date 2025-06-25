@@ -1,6 +1,8 @@
 <template>
-  <router-view></router-view>
-  <FooterComponent />
+  <div id="app">
+    <router-view></router-view>
+    <FooterComponent />
+  </div>
 </template>
 
 <script>
@@ -10,7 +12,7 @@ export default {
   name: 'App',
   components: {
     FooterComponent,
-    
+
   }
 };
 </script>
