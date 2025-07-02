@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import AdminDashboard from './pages/AdminDashboard.vue';
 import ManageProducts from './pages/ManageProducts.vue';
 import ManageReviews from './pages/ManageReviews.vue';
+import ManageContacts from './pages/ManageContacts.vue';
 
 const routes = [
     {
@@ -10,6 +11,7 @@ const routes = [
         children: [
             { path: '', component: ManageProducts }, // Домашня сторінка рендерить ManageProducts
             { path: 'reviews', component: ManageReviews }, // Відгуки
+            { path: 'contacts', component: ManageContacts}
         ],
     },
     {
@@ -18,6 +20,7 @@ const routes = [
         children: [
             { path: 'products', component: ManageProducts },
             { path: 'reviews', component: ManageReviews },
+            { path: 'contacts', component: ManageContacts },
         ],
     },
 ];
