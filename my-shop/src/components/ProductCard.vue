@@ -4,7 +4,7 @@
         <h2>{{ name }}</h2>
         <p>{{ description }}</p>
         <p class="price">{{ price }} грн</p>
-        <button class="buy-button">Купити</button>
+        <button v-on:click="addToCart" class="buy-button">Купити</button>
     </div>
 </template>
 

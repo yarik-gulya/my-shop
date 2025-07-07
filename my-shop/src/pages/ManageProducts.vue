@@ -72,15 +72,17 @@ export default {
       },
     ]);
 
-    const filteredProducts = computed(() =>
-      products.value.filter(product =>
-        product.name.toLowerCase().includes(searchQuery.value.toLowerCase())
-      )
-    );
+    const filteredProducts = computed(function () {
+      return products.value.filter(function (product) {
+        return product.name.toLowerCase().includes(searchQuery.value.toLowerCase());
+      });
+    });
 
-    const totalPrice = computed(() =>
-      cartItems.value.reduce((sum, item) => sum + item.price, 0)
-    );
+    const totalPrice = computed(function () {
+      return cartItems.value.reduce(function (sum, item) {
+        return sum + item.price;
+      }, 0);
+    });
 
     function addToCart(product) {
       cartItems.value.push(product);

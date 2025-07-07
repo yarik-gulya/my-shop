@@ -13,6 +13,23 @@
     </div>
 </template>
 
+<style scoped>
+    ul{
+        list-style-type: none;
+        padding: 10px;
+    }
+
+    ul li{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+    }
+</style>
+
 <script>
 import { inject } from "vue";
 
