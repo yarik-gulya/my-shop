@@ -9,13 +9,28 @@
 </template>
 
 <script>
+import { inject } from "vue";
+
 export default {
-    props: {
-        name: String,
-        description: String,
-        price: Number,
-        image: String
+  props: {
+    name: String,
+    price: Number,
+    image: String,
+  },
+
+  setup(props) {
+    const addToCart = inject("addToCart");
+
+    function handleAddToCart() {
+      addToCart({
+        name: props.name,
+        price: props.price,
+        image: props.image,
+      });
     }
+
+    return { addToCart: handleAddToCart };
+  },
 };
 </script>
 

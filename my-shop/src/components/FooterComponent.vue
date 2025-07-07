@@ -10,8 +10,8 @@
                 <li><router-link to="/admin/reviews">Відгуки</router-link></li>
             </ul>
 
-            <input type="text" v-model="message" />
-            <p>You entered: {{ message }}</p>
+            <!-- <input type="text" v-model="message" />
+            <p>You entered: {{ message }}</p> -->
 
             <p>&copy; 2023 My Shop. All rights reserved.</p>
         </div>

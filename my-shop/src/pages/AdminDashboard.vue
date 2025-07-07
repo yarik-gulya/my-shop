@@ -1,23 +1,23 @@
 <template>
-    <header>
-        <h1>Магазин</h1>
-        <nav>
-            <router-link to="/admin/products">Головна</router-link>
-            <router-link to="/admin/reviews">Відгуки</router-link>
-            <router-link to="/admin/contacts">Контакти</router-link>
-        </nav>
-    </header>
-    <main>
-        <router-view />
-    </main>
-
+    <div>
+        <header>
+            <h1>Магазин</h1>
+            <nav>
+                <router-link to="/admin/products">Головна</router-link>
+                <router-link to="/admin/reviews">Відгуки</router-link>
+                <router-link to="/admin/contacts">Контакти</router-link>
+            </nav>
+        </header>
+        <main>
+            <router-view />
+        </main>
+    </div>
 </template>
 
 <script>
 export default {
-    name: 'AdminDashboard',
-};
-
+    name: 'AdminDashboard'
+}
 </script>
 <style scoped>
 h1 {
