@@ -3,6 +3,9 @@ import AdminDashboard from './pages/AdminDashboard.vue';
 import ManageProducts from './pages/ManageProducts.vue';
 import ManageReviews from './pages/ManageReviews.vue';
 import ManageContacts from './pages/ManageContacts.vue';
+import ProfilePage from './pages/ProfilePage.vue';
+import LoginPage from './pages/LoginPage.vue';
+
 
 const routes = [
     {
@@ -21,6 +24,8 @@ const routes = [
             { path: 'products', component: ManageProducts },
             { path: 'reviews', component: ManageReviews },
             { path: 'contacts', component: ManageContacts },
+            { path: 'login', component: LoginPage},
+            { path: 'profile', component: ProfilePage},
         ],
     },
 ];
